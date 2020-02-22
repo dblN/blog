@@ -1,4 +1,5 @@
 .jekyll-metadata
+.jekyll-cache
 .htaccess
 .DS_Store
 .sass-cache
