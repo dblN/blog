@@ -1,5 +1,6 @@
 # Blog settings
 permalink: /blog/:title
+future: true
 
 
 # My variables
