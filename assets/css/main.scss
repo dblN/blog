@@ -3,6 +3,7 @@
 
 @import "reset";
 @import "config";
+@import "manni.css";
 
 body {
 	color: $color-black;
@@ -207,11 +208,7 @@ blockquote {
 			padding: 10px;
 			line-height: 1.5;
 			border-radius: 3px;
-			background: $color-black;
-			code {
-				color: $color-code;
-				background: none;
-			}
+			background: #eee;
 		}
 		.codebreak {
 			margin: 15px;

@@ -30,7 +30,7 @@ title: 座標圧縮
 
 ### 実装
 
-```
+{% highlight cpp %}
 int main() {
     i64 N; cin >> N;
     vector<i64> X1(N);
@@ -86,4 +86,4 @@ int main() {
 
     return 0;
 }
-```
+{% endhighlight %}

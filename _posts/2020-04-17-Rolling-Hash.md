@@ -28,7 +28,7 @@ title: Rolling Hash
 templateを使っているが、modは$$2^{61}-1$$を前提とする。
 基数は実行時に、文字集合より大きな数をランダムに選んで初期化する。衝突が起こる場合は、基数を複数用意して対処する。
 
-```
+{% highlight cpp %}
 #define MOD 2305843009213693951 // 2^61 - 1
 
 template<u64 mod>
@@ -80,4 +80,4 @@ private:
         return res;
     }
 };
-```
+{% endhighlight %}
